@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.View">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="720.0" prefWidth="500.0">
+         <children>
+            <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView5" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView2" fitHeight="150.0" fitWidth="200.0" layoutX="134.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView9" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView3" fitHeight="150.0" fitWidth="200.0" layoutX="254.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView4" fitHeight="150.0" fitWidth="200.0" layoutX="374.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView6" fitHeight="150.0" fitWidth="200.0" layoutX="134.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView7" fitHeight="150.0" fitWidth="200.0" layoutX="254.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView8" fitHeight="150.0" fitWidth="200.0" layoutX="374.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView10" fitHeight="150.0" fitWidth="200.0" layoutX="134.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView11" fitHeight="150.0" fitWidth="200.0" layoutX="254.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView12" fitHeight="150.0" fitWidth="200.0" layoutX="374.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView13" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="497.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView14" fitHeight="150.0" fitWidth="200.0" layoutX="134.0" layoutY="497.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView15" fitHeight="150.0" fitWidth="200.0" layoutX="254.0" layoutY="497.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView16" fitHeight="150.0" fitWidth="200.0" layoutX="374.0" layoutY="497.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/53.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="startButton" layoutX="268.0" layoutY="656.0" mnemonicParsing="false" onAction="#closeCards" style="-fx-background-color: #00FF00;" text="Start" textFill="#5804e8">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="shuffleButton" layoutX="142.0" layoutY="657.0" mnemonicParsing="false" onAction="#setRandomImagesFromDeck" style="-fx-background-color: #00FF00;" text="Shuffle" textFill="#430de4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children></Pane>
+   </children>
+</GridPane>
