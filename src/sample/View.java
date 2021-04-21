@@ -96,7 +96,7 @@ public class View implements Initializable {
     public void setImageList() throws MalformedURLException {
         imageList.clear();
         for (int i = 1; i <= 53; i++) {
-            String location = "C:\\Users\\cemon\\IdeaProjects\\Matching Game\\src\\Images\\" + i + ".jpg";
+            String location = "C:\\Users\\cemon\\IdeaProjects\\MatchingGame\\src\\Images\\" + i + ".jpg";
             imageList.add(new Image(new File(location).toURI().toURL().toExternalForm()));
         }
     }
