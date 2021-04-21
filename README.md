@@ -1,5 +1,7 @@
 # MatchingGame
-In order to open the project you need javafx library and you need to add module path to vm options.
+In order to open the project you need javafx library and you need to add module path to vm options and also you need to change the pathing to the pictures inside the code in class View function setImageList
+
+
 It is a game which the program picks 8 cards randomly from a 52 card deck and replace them randomly twice in the screen.
 And pictures have listeners and when you click them they reveal themselves(2 max at a time) with card flip animation.
 If the cards match they don't close back but if they are different the cards close again.
