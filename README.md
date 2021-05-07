@@ -1,4 +1,4 @@
-# MatchingGame
+  # MatchingGame
 In order to open the project you need javafx library and you need to add module path to vm options and also you need to change the pathing to the pictures inside the code in class View function setImageList
 
 
